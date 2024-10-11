@@ -4,63 +4,63 @@ using namespace std;
 int main() 
 {
 // EjJERCICIO 1.1
- cout << "2 materias" <<endl; 
+ cout << "2 materias" << endl; 
 
 // EJERCICIO 1.2
- cout << "7° cuatrimestre" <<endl; 
+ cout << "7° cuatrimestre" << endl; 
 
 // EJERCICIO 1.3
  string materia; 
- cout <<"Materia:" <<endl; 
+ cout << "Fundamentos de Programacion: " << endl; 
  cin >> materia; 
 
 // EJERCICIO 1.4
  string cuenta;
- cout <<"cuenta:" <<endl;
- cin>> cuenta; 
+ cout << "19279463: " << endl;
+ cin >> cuenta; 
 
 // EJERCICIO 1.5
  string nombre; 
- cout <<"nombre:" <<endl; 
- cin>> nombre;
+ cout << "Danna Ximena: " << endl; 
+ cin >> nombre;
 
 // EJERCICIO 1.6
  string apellidoPaterno; 
- cout <<"apellido Paterno:" <<endl; 
- cin>> apellidoPaterno; 
+ cout << "Garcia: " << endl; 
+ cin >> apellidoPaterno; 
 
 // EJERCICIO 1.7
  string apellidoMaterno;
- cout <<"apellido Materno:" <<endl;
- cin>> apellidoMaterno; 
+ cout << "Gomez: " << endl;
+ cin >> apellidoMaterno; 
 
 // EJERCICIO 1.8
  long celular;
- cout <<"número celular:" <<endl;
- cin>> celular; 
+ cout << "5540773931: " << endl;
+ cin >> celular; 
 
 // EJERCICIO 1.9
  long casa;
- cout <<"número de casa:" <<endl;
- cin>> casa;
+ cout << "11134839: " << endl;
+ cin >> casa;
 
 // EJERCICIO 1.10
  string correoQueMasUso;
- cout << "correo personal:" <<endl; 
- cin>> correoQueMasUso; 
+ cout << "dan_xim2003@gmail.com: " << endl; 
+ cin >> correoQueMasUso; 
 
 // EJERCICIO 1.11
  string correoMyUnitec;
- cout <<"correo institucional:" <<endl;
- cin>> correoMyUnitec; 
+ cout << "danna.garciago@my.unitec.edu.mx: " << endl;
+ cin >> correoMyUnitec; 
 
 // EJERCICIO 1.12
  string carrera; 
- cout <<"Carrera:" <<endl;
- cin>> carrera;
+ cout << "Animacion Digital: " << endl;
+ cin >> carrera;
 
 // EJERCICIO 1.13
  bool blackboard; 
- cout << "True or False" <<endl; 
- cin>> blackboard; "true or false";
+ cout << "True or False" << endl; 
+ cin >> blackboard; "true or false";
  }
