@@ -4,12 +4,10 @@ using namespace std;
 int main() 
 {
 // EjJERCICIO 1.1
- cout << "2 materias" 
- <<endl; 
+ cout << "2 materias" <<endl; 
 
 // EJERCICIO 1.2
- cout << "7° cuatrimestre"
-<<endl; 
+ cout << "7° cuatrimestre" <<endl; 
 
 // EJERCICIO 1.3
  string materia; 
