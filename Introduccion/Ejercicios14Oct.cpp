@@ -111,5 +111,16 @@ int main()
 
 	// 23. Asignacion de variables con operadores logicos
 
-	// 24. 
+	// 24. Operaciones logicas con numeros enteros (distinto de cero es verdadero, cero es falso)
+
+	// 25. Operaciones logicas con tipos de datos mixtos 
+
+	// 26. Expresiones complejas 
+
+	// 27. Expresiones anidadas 
+
+	// 28. Operaciones logicas con numeros de punto flotante
+
+	// 29. Uso de operadores logicos con comparacion de cadenas de texto (string) 
+
 }
