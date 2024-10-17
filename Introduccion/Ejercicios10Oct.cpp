@@ -74,6 +74,30 @@ int main()
 	cout << "Resultado operacion compleja: " << f3 << endl; 
 
 	// 10. Operaciones aritmeticas de tipo mixto
+	double d1 = 7.4;
+	f3 = n1 + d1;
+	cout << "Resultado suma double: " << f3 << endl;
+	f3 = n2 - d1;
+	cout << "Resultado resta double: " << f3 << endl;
+	f3 = d1 * f2;
+	cout << "Resultado multiplicacion double: " << f3 << endl;
+	f3 = d1 / f1;
+	cout << "Resultado division double: " << f3 << endl;
+
 	// 11. Numeros negativos
+	int negInt = -25;
+	float negFloat = -12.3;
+
+	n3 = n1 + negInt;
+	cout << "Resultado suma enteros positivo + negativo: " << n3 << endl;
+	n3 = n2 + negInt;
+	cout << "Resultado suma enteros positivo + negativo: " << n3 << endl;
+	f3 = negFloat - f2;
+	cout << "Resultado resta flotantes negativo - positivo: " << f3 << endl;
+	n3 = negInt * n2;
+	cout << "Resultado multiplicacion enteros negativo * positivo: " << n3 << endl;
+	
 	// 12. Incremento y decremento
+	n1++;
+	cout << "Incremento en 1 a n1: " << n1 << endl; 
 }
