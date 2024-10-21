@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 int main()
@@ -7,8 +6,6 @@ int main()
 
 	// Ejercicio 1.1 
 
-	cout << "(3 + 5 * 2 / 2 – 1): " << (3 + 5 * 2 / 2 - 1) << endl; 
-	cin >> 
 
 	// Ejercicio 1.2 
 
