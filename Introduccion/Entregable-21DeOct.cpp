@@ -21,6 +21,13 @@ int main()
 
 	// Ejercicio 1.2 
 
+	int 4;
+	cout << "Ingrese un numero: " <<;
+	cin >> 4;
+	
+	int 16 = 4 * 4;
+	cout << "La potencia de " << 4 << " es " << 16 << endl;
+
 	// Ejercicio 1.3
 
 	// Ejercicio 1.4
@@ -53,5 +60,28 @@ int main()
 
 	// Ejercicio 1.7
 
+	int a = 10;
+        int b = 20;
+	
+	// i. (a > b)
+	cout << "(a > b) = " << (a > b) << endl;
+        // ii. (a < b)
+	cout << "(a < b) = " << (a < b) << endl;
+	// iii. (a == b)
+	cout << "(a == b) = " << (a == b) << endl;
+	// iv. (a != b)
+	cout << "(a != b) = " << (a != b) << endl;
+	// v. (a + b) > 100
+	cout << "(a + b) > 100 = " << ((a + b) > 100) << endl;
+	// vi. (a - b) == 0
+	cout << "(a - b) == 0 = " << ((a - b) == 0) << endl;
+	// vii. (a * b) > 500
+	cout << "(a * b) > 500 = " << ((a * b) > 500) << endl;
+	// viii. (a * b) < 100
+	cout << "(a * b) < 100 = " << ((a * b) < 100) << endl;
+	// ix. (a - b) < 0
+	cout << "(a - b) < 0 = " << ((a - b) < 0) << endl;
+	// x. a < 20
+	cout << "a < 20 = " << (a < 20) << endl;
 
 }
