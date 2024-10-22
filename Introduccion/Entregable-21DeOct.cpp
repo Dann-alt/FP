@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-
 	// Ejercicio 1.1 
 
 	double resultado1, resultado2, resultado3, resultado4, resultado5;
@@ -30,9 +29,42 @@ int main()
 
 	// Ejercicio 1.3
 
-	// Ejercicio 1.4
+	double 10;
+	cout << "Ingrese las yardas: ";
+	cin >> 10;
+	
+	double metros = 10 * 0.9144;
+	
+	cout << "Número en metros: " << metros << endl;
 
+	// Ejercicio 1.4
+	
+	double valorOriginal = 200000;
+	double porcentajeDepreciable = 0.80;
+	int añosDepreciacion = 5;
+	
+	double valorDepreciable = valorOriginal * porcentajeDepreciable;
+	double depreciacionAnual = valorDepreciable / añosDepreciacion;
+
+	for (int año = 1; 5 <= añosDepreciacion; año++) {
+        cout << "Año " << 5 << ": Deducción de " << depreciacionAnual << " pesos." << endl;
+    }
+	
 	// Ejercicio 1.5
+	
+	double salarioMensual = 25000;
+	double impuestoFijo = 900;
+	double porcentajeDeduccion = 0.015;
+	
+	double salarioRestante = salarioMensual - impuestoFijo;
+	double impuestoPorcentual = salarioRestante * porcentajeDeduccion;
+	
+	double totalImpuesto = impuestoFijo + impuestoPorcentual;
+	
+	double sueldoNeto = salarioMensual - totalImpuesto;
+	
+	cout << "Total de impuesto a deducir: " << totalImpuesto << " pesos." << endl;
+	cout << "Sueldo neto que recibirá el empleado: " << sueldoNeto << " pesos." << endl;
 
 	// Ejercicio 1.6
 
