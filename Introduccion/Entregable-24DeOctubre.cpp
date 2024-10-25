@@ -70,20 +70,65 @@ int main()
 	cout << "La cantidad de propina que deseas dar es: " << propina << endl;
 	
 	// EJERCICIO 1.6
-	
 
+	int numero;
+	
+	cout << "Ingrese un número: ";
+	cin >> numero;
+	
+	if (numero > 100) {
+    cout << "El número es mayor a 100" << endl;
+	}
+	else {
+		cout << "El número es menor o igual que 100" << endl;
+	}
 
 	// EJERCICIO 1.7
+
+	int numero;
 	
-
-
+	cout << "Ingrese un número: ";
+	cin >> numero;
+	
+	if (numero < 0) {
+		cout << "El número es negativo" << endl;
+	} 
+	else {
+		cout << "El número es positivo" << endl;
+	}
+	
 	// EJERCICIO 1.8
 	
-
-
+	string Miemail;
+	string Password_Ingresado;
+	
+	cout << "Mi correo electronico es: ";
+	cin >> Miemail;
+	
+	cout << "Ingresea tu contraseña: ";
+	cin >> Password_Ingresado;
+	
+	if (Password_Ingresado == "12345") {
+        cout << "Felicidades, password correcto" << endl;
+	}
+	else {
+		cout << "Su password es incorrecto" << endl;
+	}
+	
 	// EJERCICIO 1.9
 	
-
+	float Farenheit, Celsius;
+	
+	cout << "Ingrese la temperatura en grados Fahrenheit: ";
+	cin >> Farenheit;
+	
+	if (Farenheit == 32) {
+		cout << "0 grados centígrados" << endl;
+	}
+	else {
+		Celsius = (Farenheit - 32) * 5.0 / 9.0;
+		cout << Celsius << " grados centígrados" << endl;
+	}
 
 	// EJERCICIO 1.10
 
