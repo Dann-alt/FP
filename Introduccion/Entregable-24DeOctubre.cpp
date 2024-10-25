@@ -129,9 +129,4 @@ int main()
 		Celsius = (Farenheit - 32) * 5.0 / 9.0;
 		cout << Celsius << " grados centígrados" << endl;
 	}
-
-	// EJERCICIO 1.10
-
-
 }
-
