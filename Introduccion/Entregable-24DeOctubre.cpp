@@ -58,8 +58,17 @@ int main()
 
 	// EJERCICIO 1.5
 	
-
-
+	float cuentaPorfavor, porcentaje, propina;
+	
+	cout << "Ingresa el total de la cuenta: ";
+	cin >> cuentaPorfavor;
+	
+	cout << "Ingresa el porcentaje de propina que gustes dar: ";
+	cin >> porcentaje;
+	
+	propina = cuentaPorfavor * (porcentaje / 100); 
+	cout << "La cantidad de propina que deseas dar es: " << propina << endl;
+	
 	// EJERCICIO 1.6
 	
 
