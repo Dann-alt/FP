@@ -30,10 +30,57 @@ int main()
     }
 
     cout << "El número más grande es: " << mayor << endl;
+    
+    //EJERCICIO 1.17
+    
+    //EJERCICIO 1.18 
 
-  //EJERCICIO 1.17
+    int Hour, Minutes, Seg;
 
-  //EJERCICIO 1.18
+    cout << "Ingrese la hora: ";
+    cin >> Hour;
+    cout << "Ingrese los minutos: ";
+    cin >> Minutes;
+    cout << "Ingrese los segundos: ";
+    cin >> Seg;
+
+    if (Hour < 0 || Hour > 23) 
+    {
+        cout << "Hora inválida. Debe estar entre 0 y 23" << endl;
+        return 1;
+    }
+    if (Minutes < 0 || Minutes > 59) 
+    {
+        cout << "Minutos inválidos. Deben estar entre 0 y 59" << endl;
+        return 1;
+    }
+    if (Seg < 0 || Seg > 59) 
+    {
+        cout << "Segundos inválidos. Deben estar entre 0 y 59." << endl;
+        return 1;
+    }
+    
+    Seg++;
+    if (Seg == 60) {
+        Seg = 0;
+
+    Minutes++;
+    if (Minutes == 60) {
+        Minutes = 0;
+
+    Hour++;
+    if (Hour == 24) {
+        Hour = 0;
+                }
+             }
+          }
+
+    cout << "La hora un segundo más tarde es: ";
+    cout << (Hour < 10 ? "0" : "") << Hour << ":"
+        << (Minutes < 10 ? "0" : "") << Minutes << ":"
+        << (Seg < 10 ? "0" : "") << Seg << endl;
+
+}
 
   //EJERCICIO 1.19
 
