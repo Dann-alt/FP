@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     //EJERCICIO 1.16
-
+    
     int A, B, C;
-
+    
     cout << "Ingresa el primer número: ";
     cin >> A;
     cout << "Ingresa el segundo número: ";
@@ -74,31 +74,26 @@ int main()
                 }
              }
           }
-
+    
     cout << "La hora un segundo más tarde es: ";
     cout << (Hour < 10 ? "0" : "") << Hour << ":"
         << (Minutes < 10 ? "0" : "") << Minutes << ":"
         << (Seg < 10 ? "0" : "") << Seg << endl;
-
-}
-
-  //EJERCICIO 1.19
-
-    //EJERCICIO 1.19 
-
+    
+    //EJERCICIO 1.19
+    
     double Distancia;
     int Estancia;
     double PrecioKm = 2.5;
     double PrecioOriginal;
     double PrecioFinal;
-
+    
     cout << "Ingrese la distancia a recorrer: ";
     cin >> Distancia;
     cout << "Ingrese el número de días de estancia: ";
     cin >> Estancia;
-
+    
     PrecioOriginal = Distancia * PrecioKm * 2;
-
     if (Estancia > 7 && Distancia > 800)
     {
         PrecioFinal = PrecioOriginal * 0.7;
@@ -107,9 +102,9 @@ int main()
     {
         PrecioFinal = PrecioOriginal;
     }
-
+    
     cout << "El precio del boleto de ida y vuelta es: $" << PrecioFinal << endl;
-
-  //EJERCICIO 1.20
+    
+    //EJERCICIO 1.20
 
 }
