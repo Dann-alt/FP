@@ -32,6 +32,42 @@ int main()
     cout << "El número más grande es: " << mayor << endl;
     
     //EJERCICIO 1.17
+
+    int A, B, C;
+    cout << "Ingrese el primer número: ";
+    cin >> A;
+    cout << "Ingrese el segundo número: ";
+    cin >> B;
+    cout << "Ingrese el tercer número: ";
+    cin >> C;
+    
+    int max, min;
+    if (A >= B && A >= C) 
+    {
+        max = A;
+    }
+    else if (B >= A && B >= C) 
+    {
+        max = B;
+    }
+    else 
+    {
+        max = C;
+    }
+    if (A <= B && A <= C) 
+    {
+        min = A;
+    }
+    else if (B <= A && B <= C) 
+    {
+        min = B;
+    }
+    else 
+    {
+        min = C;
+    }
+    cout << "El número máximo es: " << max << endl;
+    cout << "El número mínimo es: " << min << endl;
     
     //EJERCICIO 1.18 
 
@@ -106,5 +142,81 @@ int main()
     cout << "El precio del boleto de ida y vuelta es: $" << PrecioFinal << endl;
     
     //EJERCICIO 1.20
+
+    //Inciso A
+	
+	int angulo;
+	cout << "Ingrese un ángulo en grados: ";
+	cin >> angulo;
+
+	if (angulo == 90) 
+	{
+		cout << "El ángulo es un ángulo recto." << endl;
+	}
+	else 
+	{
+		cout << "El ángulo no es un ángulo recto." << endl;
+	}
+
+	//Inciso B
+	
+	double temperatura;
+	cout << "Ingrese la temperatura en grados: ";
+	cin >> temperatura;
+
+	if (temperatura > 100) 
+	{
+		cout << "Por encima del punto de ebullición del agua." << endl;
+	}
+	else 
+	{
+		cout << "Por debajo del punto de ebullición del agua." << endl;
+	}
+
+	//Inciso C
+	
+	int numero;
+	int TotalPositivos = 0;
+	int TotalNegativos = 0;
+
+	cout << "Ingrese un número: ";
+	cin >> numero;
+
+	if (numero > 0) 
+	{
+		TotalPositivos += numero; 
+	}
+	else 
+	{
+		TotalNegativos += numero; 
+	}
+
+	//Inciso D
+
+	int x, y, z;
+	cout << "Ingrese el valor de x: ";
+	cin >> x;
+	cout << "Ingrese el valor de y: ";
+	cin >> y;
+	cout << "Ingrese el valor de z: ";
+	cin >> z;
+
+	if (x > y && z < y) 
+	{
+		cout << x << endl;
+	}
+
+	//Inciso E
+
+	int distancia;
+	cout << "Ingrese la distancia: ";
+	cin >> distancia;
+
+	if (distancia > 20 && distancia < 35) 
+	{
+		int tiempo;
+		cout << "Ingrese el tiempo: ";
+		cin >> tiempo;
+	}
 
 }
