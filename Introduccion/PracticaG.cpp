@@ -9,23 +9,26 @@ int main()
 		cout << naturales[10] << ", ";
 	}
 	cout << endl; 
+}
 
 	// EJERCICIO 1. MESES DEL AÑO
-
-	string nombreMeses[12]{"ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic" };
-	for (string mes; nombreMeses;)
-	{
-		cout << nombreMeses[12] << ",";
-	}
-	cout << endl;
+{
+	string nombreMeses[12]{ "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic" };
+	for (int i = 0; i < 12; i++) 
+    {
+        cout << nombreMeses[i] << ",";
+    }
+    cout << endl;
+}
 
 	//EJERCICIO 2. PLANETAS DEL SISTEMA SOLAR
-
-	string nombrePlanetas[8]{"mercurio", "venus", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno" };
-	for (string planetas; nombrePlanetas;)
+{
+	string nombrePlanetas[8]{ "mercurio", "venus", "tierra", "marte", "jupiter", "saturno", "urano", "neptuno" };
+	for (int i = 0; i < 8; i++) 
 	{
-		cout << nombrePlanetas[8] << ",";
+		cout << nombrePlanetas[i] << ",";
 	}
 	cout << endl;
+}
  
 }
